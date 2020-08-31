@@ -7,7 +7,6 @@ public class code3 {
 
 	@SuppressWarnings("unlikely-arg-type")
 	public static void getValue(List<ArrayList<String>> customer) {
-		//customer.get(0).forEach(cust->);
 		//customer.get(0).stream().filter(k -> k.split("likes")).sorted().forEach(System.out::print);
 		customer.get(0).stream().map(k -> k.split("likes")[0].trim()+k.split("likes")[1].trim()).forEach(System.out::println);
 		//System.out.println(customer);
