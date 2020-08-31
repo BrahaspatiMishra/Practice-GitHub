@@ -1,0 +1,239 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 655000,
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "User is on the login page",
+            "match": {
+              "location": "stepDefinitions.stepDef.user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 384000,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "user lands on the home page",
+            "match": {
+              "location": "stepDefinitions.stepDef.home_page(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Background",
+                  "check",
+                  "Mine",
+                  "kaden"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-21T09:20:01.501Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2836000,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.hookMethod()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Home page login functionality",
+        "description": "",
+        "id": "application-login;home-page-login-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 484000,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "User is on the login page",
+            "match": {
+              "location": "stepDefinitions.stepDef.user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 273000,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "user logins with the username and password",
+            "match": {
+              "location": "stepDefinitions.stepDef.user_pass()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 366000,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "user lands on the home page",
+            "match": {
+              "location": "stepDefinitions.stepDef.home_page(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Smoke1"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2723000,
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "User is on the login page",
+            "match": {
+              "location": "stepDefinitions.stepDef.user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1211000,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "user lands on the home page",
+            "match": {
+              "location": "stepDefinitions.stepDef.home_page(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Background",
+                  "check",
+                  "Mine",
+                  "kaden"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-21T09:20:01.740Z",
+        "before": [
+          {
+            "result": {
+              "duration": 270000,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.hookMethod()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Home page login functionality",
+        "description": "",
+        "id": "application-login;home-page-login-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 272000,
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "User is on the login page",
+            "match": {
+              "location": "stepDefinitions.stepDef.user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 262000,
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "user logins with the username and password",
+            "match": {
+              "location": "stepDefinitions.stepDef.user_pass()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 226000,
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "user lands on the home page",
+            "match": {
+              "location": "stepDefinitions.stepDef.home_page(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Smoke2"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Application Login",
+    "description": "",
+    "id": "application-login",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/LoginFeature.feature",
+    "tags": []
+  }
+]
