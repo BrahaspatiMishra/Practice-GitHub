@@ -14,14 +14,20 @@ public class code3 {
 	
 	
 	public static void main(String[] args) {
+		testData("naash kardo sab");
+	}
+
+	private static void testData(String message) {
 		List<ArrayList<String>> customer = new ArrayList<>();
 		ArrayList<String> toBeAdded = new ArrayList<>();
 		toBeAdded.add("abc likes cds");
-		toBeAdded.add("123 likes asd");
+		String e = "123 likes asd";
+		toBeAdded.add(e);
 		toBeAdded.add("cds likes abc");
 		toBeAdded.add("asd likes 123");
 		toBeAdded.add("koiNahi likes karan");
 		customer.add(toBeAdded);
 		code3.getValue(customer);
+		System.out.println(message);
 	}
 }
